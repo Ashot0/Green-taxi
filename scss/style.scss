@@ -104,10 +104,12 @@
 .block5 {
 	iframe {
 		border-radius: 20px;
+		height: 649px;
 	}
 	padding: 40px;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	gap: 20px;
 }
 .block6 {
@@ -166,4 +168,44 @@
 			height: fit-content;
 		}
 	}
+}
+
+.money {
+	text-align: center;
+	padding: 20px;
+	border-radius: 20px;
+	width: 600px;
+	height: fit-content;
+	background-color: #2196ea;
+	display: flex;
+	flex-direction: column;
+}
+.money__block-header {
+	border: 2px solid white;
+	padding: 10px;
+	// border-radius: 20px;
+	gap: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.money__block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100px;
+	border: 1px solid white;
+}
+.money__box {
+	display: flex;
+	flex-direction: column;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+.money__card {
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	padding: 7.5px;
+	justify-content: space-around;
 }
